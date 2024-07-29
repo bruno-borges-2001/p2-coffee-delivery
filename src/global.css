@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  @apply bg-base-100 text-base-700 leading-base;
+}
+
+@layer components {
+  .title-xl {
+    @apply leading-base text-5xl font-extrabold font-baloo;
+  }
+
+  .title-l {
+    @apply text-3xl leading-base font-extrabold font-baloo;
+  }
+
+  .title-m {
+    @apply text-2xl leading-base font-extrabold font-baloo;
+  }
+
+  .title-s {
+    @apply text-xl leading-base font-bold font-baloo;
+  }
+
+  .title-xs {
+    @apply text-lg leading-base font-bold font-baloo;
+  }
+
+  .tl {
+    @apply text-xl leading-base;
+  }
+
+  .tm {
+    @apply text-base leading-base;
+  }
+
+  .ts {
+    @apply text-sm leading-base;
+  }
+
+  .txs {
+    @apply text-xs leading-base;
+  }
+
+  .tag {
+    @apply text-xxs leading-base font-bold;
+  }
+
+  .text-button-g {
+    @apply text-sm leading-high font-bold;
+  }
+
+  .text-button-m {
+    @apply text-xs leading-high;
+  }
+}
